@@ -15,7 +15,7 @@
   <packaging>sonar-plugin</packaging>
 
   <name>SonarQube Java Properties Custom Rules Plugin Example</name>
-  <description>SonarQube Java Properties Custom Rules Plugin Example</description>
+  <description>Sample plugin that defines SonarQube custom rules for Java Properties files</description>
   <url>https://github.com/racodond/sonar-jproperties-custom-rules-plugin</url>
   <inceptionYear>2016</inceptionYear>
   <organization>
