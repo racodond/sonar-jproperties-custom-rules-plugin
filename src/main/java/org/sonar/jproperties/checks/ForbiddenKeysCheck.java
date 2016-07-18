@@ -33,7 +33,7 @@ import org.sonar.squidbridge.annotations.SqaleConstantRemediation;
   key = "forbidden-keys",
   priority = Priority.MAJOR,
   name = "Forbidden keys should not be used",
-  tags = {"convention"})
+  tags = {"bug"})
 @SqaleConstantRemediation("5min")
 public class ForbiddenKeysCheck extends DoubleDispatchVisitorCheck {
 
