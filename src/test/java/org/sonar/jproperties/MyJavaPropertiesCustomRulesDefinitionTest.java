@@ -35,7 +35,7 @@ public class MyJavaPropertiesCustomRulesDefinitionTest {
     RulesDefinition.Context context = new RulesDefinition.Context();
     rulesDefinition.define(context);
 
-    RulesDefinition.Repository repository = context.repository("custom");
+    RulesDefinition.Repository repository = context.repository("custom-jproperties");
 
     assertThat(repository.name()).isEqualTo("My Java Properties Custom Repository");
     assertThat(repository.language()).isEqualTo("jproperties");

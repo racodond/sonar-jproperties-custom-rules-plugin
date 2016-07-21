@@ -41,7 +41,7 @@ public class MyJavaPropertiesCustomRulesDefinition extends CustomJavaPropertiesR
    */
   @Override
   public String repositoryKey() {
-    return "custom";
+    return "custom-jproperties";
   }
 
   /**
