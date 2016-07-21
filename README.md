@@ -21,7 +21,7 @@ This sample plugin is designed to help you get started writing your own plugin a
 
 ### Creating a SonarQube Plugin
 * Create a [standard SonarQube plugin](http://docs.sonarqube.org/display/DEV/Build+Plugin) from scratch or start from this sample plugin
-* Attach this plugin to the SonarQube Properties plugin through the [POM](https://github.com/racodond/sonar-jproperties-custom-rules-plugin/blob/master/pom.xml):
+* Attach this plugin to the SonarQube Java Properties plugin through the [POM](https://github.com/racodond/sonar-jproperties-custom-rules-plugin/blob/master/pom.xml):
   * Add the [dependency](https://github.com/racodond/sonar-jproperties-custom-rules-plugin/blob/master/pom.xml#L71) to the Java Properties plugin
   * Add the following property to the [`sonar-packaging-maven-plugin` configuration](https://github.com/racodond/sonar-jproperties-custom-rules-plugin/blob/master/pom.xml#L105):
  ```

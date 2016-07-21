@@ -27,7 +27,7 @@ import org.sonar.jproperties.checks.verifier.JavaPropertiesCheckVerifier;
 public class ForbiddenStringCheckTest {
 
   @Test
-  public void test() throws Exception {
+  public void test() {
     JavaPropertiesCheckVerifier.verify(new ForbiddenStringCheck(), new File("src/test/resources/checks/forbiddenString.properties"));
   }
 

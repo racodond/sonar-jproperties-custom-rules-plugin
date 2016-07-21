@@ -27,7 +27,7 @@ import org.sonar.jproperties.checks.verifier.JavaPropertiesCheckVerifier;
 public class ForbiddenKeysCheckTest {
 
   @Test
-  public void test() throws Exception {
+  public void test() {
     JavaPropertiesCheckVerifier.issues(new ForbiddenKeysCheck(), new File("src/test/resources/checks/forbiddenKeys.properties"))
       .next().atLine(5).withMessage("Remove the usage of this forbidden \"foo\" key.")
       .next().atLine(8).withMessage("Remove the usage of this forbidden \"bar\" key.")

@@ -48,7 +48,7 @@ public class ForbiddenStringCheck extends SubscriptionVisitorCheck {
   @Override
   public void visitNode(Tree tree) {
     if (((LiteralTree) tree).text().toLowerCase().contains(FORBIDDEN_STRING)) {
-      addPreciseIssue(tree, "Remove this usage of \"WTF\"");
+      addPreciseIssue(tree, "Remove this usage of \"WTF\".");
     }
   }
 
