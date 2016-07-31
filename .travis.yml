@@ -5,12 +5,13 @@ jdk:
 
 addons:
   sonarqube: true
-  apt:
-    packages:
-      - oracle-java8-installer
 
 env:
   global:
     - secure: "j+WAek2RObVzByXGhIyyADqt9VAqeIlzW8L8uMddHgqtPBwpZKoOmXFezznrtvDJfPFV+HTuaxPJbelP1puq78k4vfxIFkqir79ODlPioAY1/6MOgi5UQJuPMbDGPDvir8JEVzy8FF0+o4yK+BRobWBypU6UhD/LCeic+huYRton3u4m4DN+4ohgCmJlCf+GElocdlfV/I6aeCy7C+JUnWgBpmjmkLUWbqO9YhNrYIDHJpZUk+ASlgIfrtP9SPeldBkbdammdoQ1n3pTt7E64k0uzf/WyqOnMJAKKTOY9BGKetG5/qxDvktZ1TtkfJ7VQDtj7+OuYUGbMCaahYlaSJCFn1gtb1bAkE4Td6lnBGUNUd4vsZu16GElvs5s3upgqy5KYxi/BNUdM2IAADr8frHPP1Va5Hr0/RxjbUabm8FSwCTNnWq2FmME5nSMgpiD9sofRXInhyOa32YyB0AqReOCxOlwesz6DGOnTqwTRL3Jy0KIC+JDaQr9RH+U2/zmRmWBzYMMCglVm9wBOChXam0mxT6E+Ua/4rEcj8N9ZoTZ6cYLCDQinM51nyZiDm1A0cetCWLo1I83jeAjKHa0EU+rOdqB1Q633CJbkW0MUMABDDrPUZ88JiTpUSYdrUfSF3sGS09CbDMhGT7khyiAEOlR65OYyYkCqE1Isn6j8sw="
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
 
 script: ./travis.sh
