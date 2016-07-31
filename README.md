@@ -2,6 +2,7 @@ Sample plugin that defines SonarQube custom rules for Java Properties files
 ====================
 
 [![Build Status](https://api.travis-ci.org/racodond/sonar-jproperties-custom-rules-plugin.svg?branch=master)](https://travis-ci.org/racodond/sonar-jproperties-custom-rules-plugin)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/wde8h8q7dchsq0ne/branch/master?svg=true)](https://ci.appveyor.com/project/racodond/sonar-jproperties-custom-rules-plugin/branch/master)
 [![Quality Gate](https://sonarqube.com/api/badges/gate?key=org.sonar.sonar-plugins:sonar-jproperties-custom-rules-plugin)](https://nemo.sonarqube.org/overview?id=org.sonar.sonar-plugins%3Asonar-jproperties-custom-rules-plugin)
 
 ## Description
