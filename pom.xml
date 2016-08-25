@@ -58,7 +58,7 @@
     <license.title>SonarQube Java Properties Custom Rules Plugin Example</license.title>
     <license.owner>David RACODON</license.owner>
     <license.mailto>david.racodon@gmail.com</license.mailto>
-    <jproperties.version>2.1.1</jproperties.version>
+    <jproperties.version>2.2</jproperties.version>
   </properties>
 
   <dependencies>
@@ -102,7 +102,7 @@
         <extensions>true</extensions>
         <configuration>
           <pluginClass>org.sonar.jproperties.MyJavaPropertiesCustomRulesPlugin</pluginClass>
-          <basePlugin>jproperties</basePlugin>
+          <basePlugin>javaProperties</basePlugin>
         </configuration>
       </plugin>
       <plugin>

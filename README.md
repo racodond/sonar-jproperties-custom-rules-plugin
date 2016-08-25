@@ -26,7 +26,7 @@ This sample plugin is designed to help you get started writing your own plugin a
   * Add the [dependency](https://github.com/racodond/sonar-jproperties-custom-rules-plugin/blob/master/pom.xml#L71) to the Java Properties plugin
   * Add the following property to the [`sonar-packaging-maven-plugin` configuration](https://github.com/racodond/sonar-jproperties-custom-rules-plugin/blob/master/pom.xml#L105):
  ```
- <basePlugin>jproperties</basePlugin>
+ <basePlugin>javaProperties</basePlugin>
  ```
 * Implement the following extension points:
   * [Plugin](http://javadocs.sonarsource.org/latest/apidocs/index.html?org/sonar/api/Plugin.html) as in [`MyJavaPropertiesCustomRulesPlugin.java`](https://github.com/racodond/sonar-jproperties-custom-rules-plugin/blob/master/src/main/java/org/sonar/jproperties/MyJavaPropertiesCustomRulesPlugin.java)
