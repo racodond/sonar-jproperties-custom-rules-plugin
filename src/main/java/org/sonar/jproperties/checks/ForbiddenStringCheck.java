@@ -33,7 +33,7 @@ import org.sonar.squidbridge.annotations.SqaleConstantRemediation;
 @Rule(
   key = "forbidden-string",
   priority = Priority.CRITICAL,
-  name = "'WTF' should never appears in keys or values",
+  name = "'WTF' should never appear in keys or values",
   tags = {"convention"})
 @SqaleConstantRemediation("5min")
 public class ForbiddenStringCheck extends SubscriptionVisitorCheck {
