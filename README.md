@@ -1,9 +1,8 @@
-Sample plugin that defines SonarQube custom rules for Java Properties files
-====================
-
 [![Build Status](https://api.travis-ci.org/racodond/sonar-jproperties-custom-rules-plugin.svg?branch=master)](https://travis-ci.org/racodond/sonar-jproperties-custom-rules-plugin)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/wde8h8q7dchsq0ne/branch/master?svg=true)](https://ci.appveyor.com/project/racodond/sonar-jproperties-custom-rules-plugin/branch/master)
-[![Quality Gate](https://sonarqube.com/api/badges/gate?key=org.sonar.sonar-plugins:sonar-jproperties-custom-rules-plugin)](https://sonarqube.com/overview?id=org.sonar.sonar-plugins%3Asonar-jproperties-custom-rules-plugin)
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=org.sonar.sonar-plugins:sonar-jproperties-custom-rules-plugin)](https://sonarqube.com/dashboard?id=org.sonar.sonar-plugins%3Asonar-jproperties-custom-rules-plugin)
+
+# Sample plugin that defines SonarQube custom rules for Java Properties files
 
 ## Description
 The [SonarQube Java Properties plugin](https://github.com/racodond/sonar-jproperties-plugin) can be enhanced by writing custom rules through a plugin using SonarQube Java Properties API.
